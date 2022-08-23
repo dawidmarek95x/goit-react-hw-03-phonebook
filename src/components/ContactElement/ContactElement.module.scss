@@ -1,0 +1,43 @@
+.item {
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3px;
+  border-bottom: 1px solid gray;
+}
+
+.btn {
+  min-width: 18px;
+  min-height: 18px;
+  margin-left: 5px;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 50%;
+  background-color: initial;
+  background-image: url("./images/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+  transition: background-color 200ms;
+
+  &:hover {
+    background-color: rgb(245, 108, 108);
+    transition: background-color 200ms;
+  }
+}
+
+.link {
+  @extend .btn;
+  margin-left: auto;
+  background-image: url("./images/phone.svg");
+  background-size: 10px;
+
+  &:hover {
+    background-color: rgb(119, 245, 108);
+    transition: background-color 200ms;
+  }
+}

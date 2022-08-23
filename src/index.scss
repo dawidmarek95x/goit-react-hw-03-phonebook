@@ -1,0 +1,29 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 25px 15px 0 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #43B4C4; /* fallback for old browsers */
+  background-image: -webkit-linear-gradient(to right top, #28d491, #00cfa3, #00cab1, #00c4bc, #0dbdc2, #08aebd, #17a0b6, #2591ac, #137798, #075f83, #05476d, #063055);
+  background-image: linear-gradient(to right top, #28d491, #00cfa3, #00cab1, #00c4bc, #0dbdc2, #08aebd, #17a0b6, #2591ac, #137798, #075f83, #05476d, #063055);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2 {
+  line-height: 1;
+}
+
+button {
+  cursor: pointer;
+}
